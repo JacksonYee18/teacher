@@ -1,0 +1,41 @@
+
+page {
+	background-color: #FFFFFF;
+}
+.content1 {
+	/* height: 150upx; */
+	background: #00669A;
+	padding: 30rpx 10rpx;
+}
+.content1 view{
+	font-size: 50rpx;
+	color: #fff;
+	font-weight: bolder;
+	margin-left: 18rpx;
+}
+.msg{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 5px solid #eee;
+	padding: 10px 5px;
+}
+.msg ._img{
+	width: 16%;
+	height: 100rpx;
+}
+.msg .title{
+	width: 70%;
+}
+.msg .title view{
+	width: 50%;
+	text-align: center;
+	padding: 20rpx;
+	background: #00669A;
+	color: #fff;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+

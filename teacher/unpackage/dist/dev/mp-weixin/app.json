@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/message/message",
+    "pages/my/my"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "校园志愿汇",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#2c2c2c",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "height": "50px",
+    "fontSize": "12px",
+    "iconWidth": "24px",
+    "spacing": "3px",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/img/work.png",
+        "selectedIconPath": "static/img/work-hover.png",
+        "text": "工作"
+      },
+      {
+        "pagePath": "pages/message/message",
+        "iconPath": "static/img/message.png",
+        "selectedIconPath": "static/img/message-hover.png",
+        "text": "消息"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "iconPath": "static/img/my.png",
+        "selectedIconPath": "static/img/my-hover.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}
